@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>My Resume - Remberto Silva Tejada</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        #resume-frame {
+            width: 100%;
+            height: 80vh;
+            border: none;
+            background: white;
+        }
+        #header {
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="is-preload">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+            <header id="header">
+                <h1>My Resume</h1>
+                <iframe id="resume-frame" src="Remberto Internship resume copy.pdf"></iframe>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="icon solid fa-home"><span>Home</span></a></li>
+                        
+                        <!-- Add other navigation items as needed -->
+                    </ul>
+                </nav>
+            </header>
+            <footer id="footer">
+                <span class="copyright">&copy; Remberto Silva</span>
+            </footer>
+        </div>
+    </div>
+    <script>
+        window.onload = function() { document.body.classList.remove('is-preload'); }
+        window.ontouchmove = function() { return false; }
+        window.onorientationchange = function() { document.body.scrollTop = 0; }
+    </script>
+</body>
+</html>

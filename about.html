@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>About Me - Remberto Silva Tejada</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        #about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            text-align: left;
+        }
+        #about-content img {
+            max-width: 300px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        #about-content p {
+            color: #fff;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body class="is-preload">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+            <header id="header">
+                <h1>About Me</h1>
+                <div id="about-content">
+                    <!-- Add your image here -->
+                    <img src="path_to_your_image.jpg" alt="Remberto Silva Tejada">
+                    
+                    <!-- Add your about me paragraph here -->
+                    <p>
+                        Your about me text goes here. Write a paragraph or two about yourself,
+                        your background, interests, and goals. This is your chance to let people
+                        know who you are beyond just your professional skills.
+                    </p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="icon solid fa-home"><span>Home</span></a></li>
+                        <li><a href="resume.html" class="icon solid fa-file-alt"><span>Resume</span></a></li>
+                        <li>
+                            <a href="http://www.linkedin.com/in/remberto-silva-tejada-9243312ab" class="icon brands fa-linkedin">
+                                <span>LinkedIn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/rembertoS" class="icon brands fa-github">
+                                <span>Github</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <footer id="footer">
+                <span class="copyright">&copy; Remberto Silva</span>
+            </footer>
+        </div>
+    </div>
+    <script>
+        window.onload = function() { document.body.classList.remove('is-preload'); }
+        window.ontouchmove = function() { return false; }
+        window.onorientationchange = function() { document.body.scrollTop = 0; }
+    </script>
+</body>
+</html>
